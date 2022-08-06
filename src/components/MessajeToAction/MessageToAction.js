@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
+import EmailIcon from '@mui/icons-material/Email';
 
 const MessageToAction = ({ intro, title, message }) => {
 
@@ -38,11 +39,13 @@ const MessageToAction = ({ intro, title, message }) => {
         spacing={2}
         justifyContent="center"
       >
-        <Button variant="outlined">CONTACTAME</Button>
+        <Button variant="contained" endIcon={<EmailIcon />} color="success">CONTACTAME</Button>
       </Stack>
     </Container>
   </Box>
   )
+
+  
 }
 
 export default MessageToAction;

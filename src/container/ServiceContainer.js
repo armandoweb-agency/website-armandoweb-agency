@@ -5,19 +5,24 @@ import Services from '../components/ServiceItem/ServiceItem';
 import { messageservice } from '../data/messageData';
 import serviceData from '../data/serviceData';
 import Grid from '@mui/material/Grid';
+import Container from '@mui/material/Container';
 
 
 const ServicesContainer = () => {
   return (
-    <Box>
-        {messageservice.map((e)=>( <MessageToAction key={e.title} {...e}/>))}   
-        <Grid container spacing={4}> 
-          {serviceData.map((e)=> <Services key={e.title} {...e}/>)}  
-        </Grid>      
-             
-    </Box>
+    <Container maxWidth="xl">
+            {messageservice.map((e)=>( <MessageToAction key={e.title} {...e}/>))}   
+            
+        <Grid container spacing={2} justifyContent="center"> 
+          {serviceData.map((e)=> <Services key={e.title} {...e}/>)} 
+           
+        </Grid> 
+    </Container>
 
   )
+
+
+  
 }
 
 export default ServicesContainer
