@@ -34,7 +34,6 @@ const TechItem = ( { title, icon, message }) => {
       </AccordionDetails>
     </Accordion>
     </Grid>
-
   )
 }
 

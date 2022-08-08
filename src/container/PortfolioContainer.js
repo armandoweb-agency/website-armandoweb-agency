@@ -1,33 +1,32 @@
 import React from 'react';
-import TechItem from '../components/TechItem/TechItem';
+import PortfolioItem from '../components/PortafolioItem/PortfolioItem';
 import Container from '@mui/material/Container';
-import techData from '../data/techData';
 import { Grid } from '@mui/material';
-import Typography from '@mui/material/Typography';
+import portfolioData from '../data/portfolioData.js';
 import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
-const TechContainer = () => {
+const PortfolioContainer = () => {
   return (
     <Container maxWidth="xl">
-      <Box>
-        <Typography
+          <Typography
           component="h1"
           variant="h3"
           align="center"
           color="text.primary"
           gutterBottom
         >
-          Tecnologias que uso
+          Portafolio
         </Typography>
         <Typography variant="h6" align="center" color="text.secondary" paragraph>
-          Mensaje de Tecbologias
+          Mensaje de Portafolio
         </Typography>
-      </Box>
-      <Grid container spacing={2} justifyContent="center">      
-        {techData.map((e)=> <TechItem key={e.title} {...e}/>)}
-      </Grid>     
+    
+      <Grid container spacing={2} justifyContent="center">
+        {portfolioData.map((e)=><PortfolioItem key={e.title} {...e}/>)}
+      </Grid>
     </Container>
   )
 }
 
-export default TechContainer;
+export default PortfolioContainer;

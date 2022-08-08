@@ -3,8 +3,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { CardMedia, Grid } from '@mui/material';
-import Box from '@mui/material/Box';
-
 
 const Services = ({ title, icon, message }) => {
   return (
@@ -25,16 +23,6 @@ const Services = ({ title, icon, message }) => {
     </Card>
 
     </Grid>
-
-
-
-    
-
-
-
-
-
-
   )
 }
 
