@@ -1,13 +1,13 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import Services from '../components/ServiceItem/ServiceItem';
+import ServiceItem from '../components/ServiceItem/ServiceItem';
 import serviceData from '../data/serviceData';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
 
-const ServicesContainer = () => {
+const ServiceContainer = () => {
   return (
     <Container maxWidth="xl">
       <Box>
@@ -25,7 +25,7 @@ const ServicesContainer = () => {
         </Typography>
       </Box>
         <Grid container spacing={2} justifyContent="center"> 
-          {serviceData.map((e)=> <Services key={e.title} {...e}/>)}            
+          {serviceData.map((e)=> <ServiceItem key={e.title} {...e}/>)}            
         </Grid> 
     </Container>
 
@@ -35,4 +35,4 @@ const ServicesContainer = () => {
   
 }
 
-export default ServicesContainer
+export default ServiceContainer

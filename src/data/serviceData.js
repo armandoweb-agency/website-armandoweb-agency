@@ -1,9 +1,11 @@
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import CodeIcon from '@mui/icons-material/Code';
+import { useContext } from 'react';
+import ButtonColorContext from '../context/ButtonColorContext';
 
 const iconStyle = {
-  fontSize: 50 
+  fontSize: 50, 
 }
 
 const serviceData = [

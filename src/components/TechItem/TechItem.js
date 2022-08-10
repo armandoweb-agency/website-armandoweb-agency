@@ -4,7 +4,6 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Box from '@mui/material/Box';
 import DevIcon from 'devicon-react-svg';
 import { Grid } from '@mui/material';
 
@@ -13,8 +12,6 @@ const devIconStyle = {
 };
 
 const TechItem = ( { title, icon, message }) => {
-
-  console.log(icon)
 
   return (
     <Grid item xs={12} sm={6} md={4}>

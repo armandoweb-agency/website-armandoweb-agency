@@ -1,8 +1,8 @@
 export const messageintro = [
   {
-    intro: "SERVICIOS",
+    intro: "HOLA, SOY DESARROLLADOR WEB FRONTEND",
     title: "Diseño y desarrollo web de alto impacto",
-    message: "Como experto en diseño y desarrollo, te ayudo a atravesar el proceso completo. ¡Desde la idea de su nuevo sitio web hasta el diseño, desarrollo, lanzamiento y post implementación"
+    message: "Como experto en diseño y desarrollo, te ayudo el proceso completo. ¡Desde la idea hasta el diseño, desarrollo, lanzamiento y post implementación"
   }
 ]
 export const messageservice = [

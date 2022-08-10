@@ -8,20 +8,19 @@ import Box from '@mui/material/Box';
 import DevIcon from 'devicon-react-svg';
 import { Grid } from '@mui/material';
 import LaunchIcon from '@mui/icons-material/Launch';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from '@mui/material/Link';
 
 const devIconStyle = {
-  width: "25px",
+  width: "30px",
+  color: "#000"
 };
 
-const PortfolioItem = ( { title, message, img, linkweb, linkgithub } ) => {
-
-  console.log(img)
+const PortfolioItem = ({ title, message, img, linkweb, linkgithub }) => {
 
   return (
     <Grid item xs={12} sm={6} md={4}>
       <Box component="img" src={img} sx={{ height: "auto", width: "100%" }} />
-
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -36,19 +35,19 @@ const PortfolioItem = ( { title, message, img, linkweb, linkgithub } ) => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Box mt={1}>
-      <Grid container justifyContent="center" direction="row" spacing={8} >
-        <Grid item>
-          <Link href={linkgithub}><DevIcon icon="github_badge" style={devIconStyle} /></Link>
-        </Grid>
-        <Grid item>
-          <Link href={linkweb}><LaunchIcon style={devIconStyle} /></Link>
+      <Grid  mt={2} mb={4} >
+        <Grid container justifyContent="center" direction="row" spacing={3} >
+          <Grid item>
+            <Link href={linkgithub} target="_blank"><GitHubIcon style={devIconStyle} /></Link>
+          </Grid>
+          <Grid item>
+            <Link href={linkweb} target="_blank"><LaunchIcon style={devIconStyle} /></Link>
+          </Grid>
         </Grid>
       </Grid>
 
-      </Box>
-
     </Grid>
+
   )
 }
 

@@ -17,10 +17,10 @@ const TechContainer = () => {
           color="text.primary"
           gutterBottom
         >
-          Tecnologias que uso
+          Tecnologías que uso
         </Typography>
         <Typography variant="h6" align="center" color="text.secondary" paragraph>
-          Mensaje de Tecbologias
+          Listado de las principales tecnologías que uso para desarrollar mis proyectos
         </Typography>
       </Box>
       <Grid container spacing={2} justifyContent="center">      

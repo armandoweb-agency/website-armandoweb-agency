@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Copyright from './Copyright';
 
-
 const Footer = () => {
   return (
     <Box
@@ -18,8 +17,8 @@ const Footer = () => {
   >
     <Box
         sx={{
-          py: 3,
-          px: 2,
+          py: 1,
+          px: 1,
           mt: 'auto',
         }}
       >

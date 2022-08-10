@@ -6,14 +6,14 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import EmailIcon from '@mui/icons-material/Email';
 
-const MessageToAction = ({ intro, title, message }) => {
+const MessageToAction = ({ intro, title, message, color }) => {
 
   return (
     <Box
     sx={{
       bgcolor: 'background.paper',
-      pt: 8,
-      pb: 6,
+      pt: 4,
+      pb: 4,
     }}
   >
     <Container maxWidth="md">
@@ -24,10 +24,10 @@ const MessageToAction = ({ intro, title, message }) => {
         component="h1"
         variant="h3"
         align="center"
-        color="text.primary"
+        color={color}
         gutterBottom
       >
-       {title}
+        {title}
       </Typography>
       <Typography variant="h6" align="center" color="text.secondary" paragraph>
       {message}
@@ -39,13 +39,11 @@ const MessageToAction = ({ intro, title, message }) => {
         spacing={2}
         justifyContent="center"
       >
-        <Button variant="contained" endIcon={<EmailIcon />} color="success">CONTACTAME</Button>
+        <Button href="mailto:hola@armandoweb.agency" target="_blank" variant="contained" color="buttonColor" endIcon={<EmailIcon />} >CONTACTAME</Button>
       </Stack>
     </Container>
   </Box>
   )
-
-  
 }
 
 export default MessageToAction;

@@ -3,7 +3,6 @@ import PortfolioItem from '../components/PortafolioItem/PortfolioItem';
 import Container from '@mui/material/Container';
 import { Grid } from '@mui/material';
 import portfolioData from '../data/portfolioData.js';
-import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 const PortfolioContainer = () => {
@@ -19,7 +18,7 @@ const PortfolioContainer = () => {
           Portafolio
         </Typography>
         <Typography variant="h6" align="center" color="text.secondary" paragraph>
-          Mensaje de Portafolio
+          Listado de mis últimos desarrollos
         </Typography>
     
       <Grid container spacing={2} justifyContent="center">
