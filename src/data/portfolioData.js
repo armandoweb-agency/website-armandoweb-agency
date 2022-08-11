@@ -21,6 +21,13 @@ const Portafolio = [
     linkgithub:"https://www.nuevamasvida.cl/"
   },
   {
+    title:"WEBSITEAPP: armandoweb.agency",
+    message:"Website desarrollado con desarrollado con React y Material UI para mostrar mi portafolio y habilidades, utilizando useContext y useState para hacer cambio de color en los componentes",
+    img:"../assets/armandoweb-agency.png",
+    linkweb:"https://www.nuevamasvida.cl/",
+    linkgithub:"https://www.nuevamasvida.cl/"
+  },
+  {
     title:"WEBSITE: bestbike",
     message:"Website desarrollado con HTML, CSS, Bootstrap y JS, como proyecto de fin de cursada de JS en la carrera de frontend",
     img:"../assets/bestbike-website.png",

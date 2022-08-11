@@ -1,0 +1,55 @@
+/*armandoweb: personal styles*/
+
+/*armandoweb: color palet */
+.bg-primary-armandoweb{
+    background-color: #333333;
+}
+.bg-secundary-armandoweb{
+    background-color: #999999;
+}
+.text-primary-armandoweb{
+    color: #333333;
+}
+.text-secundary-armandoweb{
+    color: #999999;
+}
+
+
+/*armandoweb: resize imagehero*/
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .img-hero{
+        background-image: url(../multimedia/images/armandoweb-agency-desktop.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .img-hero{
+        background-image: url(../multimedia/images/armandoweb-agency-tablet.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .img-hero{
+        background-image: url(../multimedia/images/armandoweb-agency-mobile.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+}
+
+
+
+

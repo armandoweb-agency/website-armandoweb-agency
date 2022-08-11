@@ -6,7 +6,7 @@ import TechContainer from './TechContainer';
 import PortfolioContainer from './PortfolioContainer';
 import FooterContainer from './FooterContainer';
 import ImageHeroContainer from './ImageHeroContainer';
-import NavBar from '../components/Menu/NavBar';
+import NavBar from '../components/NavBar/NavBar';
 
 const LayoutContainer = () => { 
 
