@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import PortfolioItem from '../components/PortafolioItem/PortfolioItem';
+import PortfolioItem from '../components/PortfolioItem/PortfolioItem';
 import Container from '@mui/material/Container';
 import { Grid } from '@mui/material';
 import portfolioData from '../data/portfolioData.js';
