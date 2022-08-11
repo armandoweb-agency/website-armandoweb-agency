@@ -6,16 +6,16 @@ import Copyright from './Copyright';
 const Footer = () => {
   return (
     <Box
-    component="footer" 
-    sx={{ 
-      bgcolor: 'background.paper', 
-      p: 6, 
-      minHeight: '10vh', 
-      display: 'flex',
-      flexDirection: 'column',
-      }}         
-  >
-    <Box
+      component="footer"
+      sx={{
+        bgcolor: 'background.paper',
+        p: 6,
+        minHeight: '10vh',
+        display: 'flex',
+        flexDirection: 'column',
+      }}
+    >
+      <Box
         sx={{
           py: 1,
           px: 1,
@@ -26,7 +26,7 @@ const Footer = () => {
           <Copyright />
         </Container>
       </Box>
-  </Box>
+    </Box>
   )
 }
 

@@ -7,12 +7,12 @@ import ButtonColorContext from '../context/ButtonColorContext'
 
 const Intro = ( ) => {
 
-  const value = useContext(ButtonColorContext);
+  const color = useContext(ButtonColorContext);
 
   return (
     <Container maxWidth="xl">
       <Box>
-        {messageintro.map((e)=>( <MessageToAction color={value.value} key={e.title} {...e}/>))}
+        {messageintro.map((e)=>( <MessageToAction color={color.color} key={e.title} {...e}/>))}
       </Box>
     </Container>    
   )

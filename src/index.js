@@ -7,7 +7,6 @@ import { ThemeProvider } from '@mui/material';
 import theme from './theme/theme';
 import { BrowserRouter } from 'react-router-dom';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ThemeProvider theme={theme}>

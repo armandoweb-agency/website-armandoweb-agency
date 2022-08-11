@@ -3,7 +3,6 @@ import Grid from '@mui/material/Grid';
 
 export const ImageHero = ( {color} ) => {
 
-
   return (
     <Grid >
       <svg width="100%" height= "40vh" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438.63 370.36">
@@ -145,9 +144,7 @@ export const ImageHero = ( {color} ) => {
           <path d="M292.18,133.14l-6.1.1-6.1.07-6.1.05-6.09,0h-.26v-.25l0-10.31v-.28h.29l12.19,0c4.07,0,8.13.07,12.2.09h.16v.16l-.06,5.15Zm0,0-.09-5.16-.07-5.15.16.15c-4.07,0-8.13.09-12.2.1l-12.19,0,.28-.28,0,10.31-.25-.26,6.09,0,6.1.06,6.1.07Z" transform="translate(-19.2 -15.64)" fill="#999" />
         </g>
       </svg>
-
     </Grid>
-
   )
 }
 

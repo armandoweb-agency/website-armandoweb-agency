@@ -1,8 +1,6 @@
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import CodeIcon from '@mui/icons-material/Code';
-import { useContext } from 'react';
-import ButtonColorContext from '../context/ButtonColorContext';
 
 const iconStyle = {
   fontSize: 50, 
@@ -25,6 +23,4 @@ const serviceData = [
     message: "Desarrollo sitios web siguiendo las mejores prácticas de desarrollo, diseño y SEO, para que sea adaptable, rápido y escalable."
   }
 ]
-export default serviceData;
-
-  
+export default serviceData;  

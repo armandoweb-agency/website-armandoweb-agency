@@ -8,8 +8,7 @@ function App() {
     <>
       <ButtonColorContextProvider>
         <LayoutContainer />   
-      </ButtonColorContextProvider>      
-               
+      </ButtonColorContextProvider>                  
     </>
   );
 }

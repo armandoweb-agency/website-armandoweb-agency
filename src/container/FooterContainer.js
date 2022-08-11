@@ -5,14 +5,13 @@ import MessageToAction from '../components/MessajeToAction/MessageToAction';
 import Footer from '../components/Footer/Footer';
 import ButtonColorContext from '../context/ButtonColorContext';
 
-
 const FooterContainer = () => {
-  
-const value = useContext(ButtonColorContext);
+
+  const color = useContext(ButtonColorContext);
 
   return (
     <Container maxWidth="xl">
-      {messageservice.map((e) => (<MessageToAction color={value.value} key={e.title} {...e} />))}
+      {messageservice.map((e) => (<MessageToAction color={color.color} key={e.title} {...e} />))}
       <Footer />
     </Container>
   )

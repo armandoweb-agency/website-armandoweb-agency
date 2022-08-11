@@ -14,19 +14,14 @@ const Copyright = () => {
   return (
     <Grid>
       <Grid container justifyContent="center" spacing={3} >
-      
-      <Grid item>
-      <Link href="https://github.com/armandoweb-agency" target="_blank"><GitHubIcon style={iconStyle} /></Link>
+        <Grid item>
+          <Link href="https://github.com/armandoweb-agency" target="_blank"><GitHubIcon style={iconStyle} /></Link>
         </Grid>
         <Grid item>
-        <Link href="https://www.linkedin.com/in/armandoweb-agency/" target="_blank"> <LinkedInIcon style={iconStyle}/></Link>
+          <Link href="https://www.linkedin.com/in/armandoweb-agency/" target="_blank"> <LinkedInIcon style={iconStyle} /></Link>
         </Grid>
-
       </Grid>
-      
-      
-      
-     
+
       <Typography variant="body2" color="text.secondary" align="center">
         {'Copyright © '}
         <Link color="inherit" target="_blank" href="https://armandoweb.agency/">
@@ -35,9 +30,7 @@ const Copyright = () => {
         {new Date().getFullYear()}
         {'.'}
       </Typography>
-
     </Grid>
-
   )
 }
 

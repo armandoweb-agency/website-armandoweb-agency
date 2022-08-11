@@ -5,7 +5,6 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Box from '@mui/material/Box';
-import DevIcon from 'devicon-react-svg';
 import { Grid } from '@mui/material';
 import LaunchIcon from '@mui/icons-material/Launch';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -35,7 +34,7 @@ const PortfolioItem = ({ title, message, img, linkweb, linkgithub }) => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Grid  mt={2} mb={4} >
+      <Grid mt={2} mb={4} >
         <Grid container justifyContent="center" direction="row" spacing={3} >
           <Grid item>
             <Link href={linkgithub} target="_blank"><GitHubIcon style={devIconStyle} /></Link>

@@ -8,7 +8,7 @@ import FooterContainer from './FooterContainer';
 import ImageHeroContainer from './ImageHeroContainer';
 import NavBar from '../components/Menu/NavBar';
 
-const LayoutContainer = ( {value} ) => { 
+const LayoutContainer = () => { 
 
   return (
     <Box > 

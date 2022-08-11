@@ -8,7 +8,7 @@ export const messageintro = [
 export const messageservice = [
   {
     intro: "EN QUE PUEDO AYUDARTE?",
-    title: "Haz tu los negocios y yo el desarrollo",
-    message: "Diseño y desarrollo sitios web sorprendentes y rápidos, conviernto una idea en un producto web."
+    title: "Haz Tú los negocios y yo el desarrollo",
+    message: "Diseño y desarrollo sitios web sorprendentes y rápidos, convierto una idea en un producto web."
   }
 ]

@@ -5,11 +5,11 @@ import ButtonColorContext from '../context/ButtonColorContext';
 
 const ImageHeroContainer = () => {
 
-  const value = useContext(ButtonColorContext);
+  const color = useContext(ButtonColorContext);
 
   return (
     <Container maxWidth="xl">
-      <ImageHero color={value.value}/>
+      <ImageHero color={color.color}/>
     </Container>   
   )
 }
