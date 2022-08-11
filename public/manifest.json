@@ -3,17 +3,17 @@
   "name": "Diseño y desarrollo web de alto impacto",
   "icons": [
     {
-      "src": "armandoweb-agency.ico",
+      "src": "armandoweb-ico.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "armandoweb-agency.png",
+      "src": "armandoweb-ico.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "armandoweb-agency.png",
+      "src": "armandoweb-ico.png",
       "type": "image/png",
       "sizes": "512x512"
     }
