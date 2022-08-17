@@ -5,11 +5,9 @@ import {ButtonColorContextProvider} from './context/ButtonColorContext';
 function App() {
 
   return (
-    <>
       <ButtonColorContextProvider>
         <LayoutContainer />   
-      </ButtonColorContextProvider>                  
-    </>
+      </ButtonColorContextProvider>
   );
 }
 

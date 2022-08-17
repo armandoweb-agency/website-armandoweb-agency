@@ -10,7 +10,7 @@ const Intro = ( ) => {
   const color = useContext(ButtonColorContext);
 
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="xl" sx={{ mt: 5 }}>
       <Box>
         {messageintro.map((e)=>( <MessageToAction color={color.color} key={e.title} {...e}/>))}
       </Box>

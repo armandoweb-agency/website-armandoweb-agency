@@ -12,7 +12,7 @@ const TechContainer = () => {
   const color = useContext(ButtonColorContext);
 
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="xl" sx={{ mt: 5 }}>
       <Box>
         <Typography
           component="h1"

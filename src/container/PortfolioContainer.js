@@ -11,7 +11,7 @@ const PortfolioContainer = () => {
   const color = useContext(ButtonColorContext);
 
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="xl" sx={{ mt: 5 }}>
       <Typography
         component="h1"
         variant="h3"

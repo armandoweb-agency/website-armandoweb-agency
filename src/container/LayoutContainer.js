@@ -11,14 +11,14 @@ import NavBar from '../components/NavBar/NavBar';
 const LayoutContainer = () => { 
 
   return (
-    <Box > 
-      <Box id="navbar"><NavBar/></Box>     
-      <Box mt={5} id="intro"><IntroContainer /></Box>  
-      <Box mt={2}><ImageHeroContainer /></Box>    
-      <Box mt={5} id="servicios"><ServiceContainer /></Box> 
-      <Box mt={5} id="tecnologias"><TechContainer /></Box>   
-      <Box mt={5} id="portafolio"><PortfolioContainer /></Box>  
-      <Box mt={5} id="contacto"><FooterContainer /></Box> 
+    <Box section="main"> 
+      <Box setion="navbar" id="navbar"><NavBar /></Box>     
+      <Box section="intro"><IntroContainer /></Box>  
+      <Box section="image-hero"><ImageHeroContainer /></Box>    
+      <Box section="servicios"><ServiceContainer /></Box> 
+      <Box section="tecnologias"><TechContainer /></Box>   
+      <Box section="portafolio"><PortfolioContainer /></Box>  
+      <Box section="contacto"><FooterContainer /></Box> 
     </Box>
   )
 }
