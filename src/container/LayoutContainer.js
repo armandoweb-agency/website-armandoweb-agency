@@ -13,12 +13,12 @@ const LayoutContainer = () => {
   return (
     <Box section="main"> 
       <Box setion="navbar" id="navbar"><NavBar /></Box>     
-      <Box section="intro"><IntroContainer /></Box>  
-      <Box section="image-hero"><ImageHeroContainer /></Box>    
-      <Box section="servicios"><ServiceContainer /></Box> 
-      <Box section="tecnologias"><TechContainer /></Box>   
-      <Box section="portafolio"><PortfolioContainer /></Box>  
-      <Box section="contacto"><FooterContainer /></Box> 
+      <Box section="intro" id="intro"><IntroContainer /></Box>  
+      <Box section="image-hero" id="image-hero"><ImageHeroContainer /></Box>    
+      <Box section="servicios" id="servicios"><ServiceContainer /></Box> 
+      <Box section="tecnologias" id="tecnologias"><TechContainer /></Box>   
+      <Box section="portafolio" id="portafolio"><PortfolioContainer /></Box>  
+      <Box section="contacto" id="contacto"><FooterContainer /></Box> 
     </Box>
   )
 }
