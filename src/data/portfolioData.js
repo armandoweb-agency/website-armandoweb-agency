@@ -1,10 +1,10 @@
 const Portafolio = [
   {
-    title:"WEBSITE: nsphotography.net",
-    message:"Website desarrollado con HTML, CSS, Bootstrap y JS, para cliente fotógrafo con excelente trabajo gráfico y creativo, gran trabajo por parte del diseñador UX/UI, muchas líneas de CCS para lograr mostrar las imágenes.",
-    img:"../assets/projects/nsphotography.png",
-    linkweb:"https://nsphotography.net/",
-    linkgithub:"https://github.com/armandoweb-agency/website-nsphotography"
+    title:"WEBSITEAPP: armandoweb.agency",
+    message:"Website desarrollado con desarrollado con React y Material UI para mostrar mi portafolio y habilidades, utilizando useContext y useState para hacer cambio de color en los componentes",
+    img:"../assets/projects/armandoweb-agency.png",
+    linkweb:"https://github.com/armandoweb-agency/website-armandoweb-agency",
+    linkgithub:"https://github.com/armandoweb-agency/website-armandoweb-agency"
   },
   {
     title:"WEBSITE: lawsnl.com",
@@ -21,11 +21,11 @@ const Portafolio = [
     linkgithub:"https://www.nuevamasvida.cl/"
   },
   {
-    title:"WEBSITEAPP: armandoweb.agency",
-    message:"Website desarrollado con desarrollado con React y Material UI para mostrar mi portafolio y habilidades, utilizando useContext y useState para hacer cambio de color en los componentes",
-    img:"../assets/projects/armandoweb-agency.png",
-    linkweb:"https://github.com/armandoweb-agency/website-armandoweb-agency",
-    linkgithub:"https://github.com/armandoweb-agency/website-armandoweb-agency"
+    title:"WEBSITE: nsphotography.net",
+    message:"Website desarrollado con HTML, CSS, Bootstrap y JS, para cliente fotógrafo con excelente trabajo gráfico y creativo, gran trabajo por parte del diseñador UX/UI, muchas líneas de CCS para lograr mostrar las imágenes.",
+    img:"../assets/projects/nsphotography.png",
+    linkweb:"https://nsphotography.net/",
+    linkgithub:"https://github.com/armandoweb-agency/website-nsphotography"
   },
   {
     title:"WEBSITE: bestbike",
@@ -35,25 +35,32 @@ const Portafolio = [
     linkgithub:"https://bestbike-mountainbike.000webhostapp.com/"
   },
   {
-    title:"EXERCICE: show cards app",
+    title:"EXERCICE (React): show cards app",
     message:"Ejercicio que permite mostrar cards, desarrollado con React y Material UI",
     img:"../assets/projects/show-cards-app.png",
     linkweb:"https://github.com/armandoweb-agency/exercice-show-card-app-react-mui",
     linkgithub:"https://github.com/armandoweb-agency/exercice-show-card-app-react-mui"
   },
   {
-    title:"EXERCICE: to do list",
+    title:"EXERCICE (JS): to do list",
     message:"Ejercicio que permite crear una lista de tareas, con manejo de localstorage, desarrollado con HTML, JS y Bootstrap",
     img:"../assets/projects/to-do-list.png",
     linkweb:"https://github.com/armandoweb-agency/exercice-todolist-javascript",
     linkgithub:"https://github.com/armandoweb-agency/exercice-todolist-javascript"
   },
   {
-    title:"EXERCICE: search images",
+    title:"EXERCICE (React): search images",
     message:"Ejercicio que permite buscar imagenes mediante API de pexeles.com, desarrollado con React, axios, Material UI y API de Pexeles.com",
     img:"../assets/projects/search-images-react-api-pexeles.png",
     linkweb:"https://armandoweb.agency/buscador/",
     linkgithub:"https://github.com/armandoweb-agency/exercise-search-images-react-mui"
+  },
+  {
+    title:"EXERCICE (React): blog app firebase",
+    message:"Ejercicio de practica que permite mostrar y agregar post, desarrollado en React, Javascript, Firebase, MUI y Toastify, permite mostrar y listar segun categoria, tambien permite agregar post desde formulario de carga, acceso de login y register mediante formulario de acceso a usuarios.",
+    img:"../assets/projects/blog-app.png",
+    linkweb:"https://blog-app-firebase.000webhostapp.com/",
+    linkgithub:"https://github.com/armandoweb-agency/exercise-blog-add"
   }
 ]
 export default Portafolio;
