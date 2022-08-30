@@ -59,7 +59,7 @@ const Portafolio = [
     title:"EXERCICE (React): blog app firebase",
     message:"Ejercicio de practica que permite mostrar y agregar post, desarrollado en React, Javascript, Firebase, MUI y Toastify, permite mostrar y listar segun categoria, tambien permite agregar post desde formulario de carga, acceso de login y register mediante formulario de acceso a usuarios.",
     img:"../assets/projects/blog-app.png",
-    linkweb:"https://blog-app-firebase.000webhostapp.com/",
+    linkweb:"https://blog-app.armandoweb.agency/",
     linkgithub:"https://github.com/armandoweb-agency/exercise-blog-add"
   }
 ]
