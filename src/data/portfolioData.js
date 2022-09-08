@@ -1,10 +1,10 @@
 const Portafolio = [
   {
-    title:"WEBSITEAPP: armandoweb.agency",
-    message:"Website desarrollado con desarrollado con React y Material UI para mostrar mi portafolio y habilidades, utilizando useContext y useState para hacer cambio de color en los componentes",
-    img:"../assets/projects/armandoweb-agency.png",
-    linkweb:"https://github.com/armandoweb-agency/website-armandoweb-agency",
-    linkgithub:"https://github.com/armandoweb-agency/website-armandoweb-agency"
+    title:"APP (React): cotizador de ventas nuestros parques",
+    message:"App desarrollada para solventar un problema real que enfrenta el ejecutivo de ventas de Nuestros Parques al necesitar cotizar los productos en su dispositivo movil, desarrollado en React, Javascript y MUI",
+    img:"../assets/projects/cotiza-nuestros-parques.png",
+    linkweb:"https://cotiza-parques.armandoweb.agency/",
+    linkgithub:"https://github.com/armandoweb-agency/app-cotiza-nuestros-parques"
   },
   {
     title:"WEBSITE: lawsnl.com",
@@ -33,6 +33,13 @@ const Portafolio = [
     img:"../assets/projects/bestbike-website.png",
     linkweb:"https://bestbike-mountainbike.000webhostapp.com/",
     linkgithub:"https://bestbike-mountainbike.000webhostapp.com/"
+  },
+  {
+    title:"WEBSITEAPP: armandoweb.agency",
+    message:"Website desarrollado con desarrollado con React y Material UI para mostrar mi portafolio y habilidades, utilizando useContext y useState para hacer cambio de color en los componentes",
+    img:"../assets/projects/armandoweb-agency.png",
+    linkweb:"https://github.com/armandoweb-agency/website-armandoweb-agency",
+    linkgithub:"https://github.com/armandoweb-agency/website-armandoweb-agency"
   },
   {
     title:"EXERCICE (React): show cards app",
